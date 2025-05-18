@@ -42,6 +42,20 @@ const scrollActive = () =>{
 }
 window.addEventListener('scroll', scrollActive)
 
+document.addEventListener("DOMContentLoaded", function () {
+    const skillDataBlocks = document.querySelectorAll(".skills__data");
+
+    skillDataBlocks.forEach((block) => {
+        const percentageText = block.querySelector(".skills__percentage")?.innerText;
+        const bar = block.querySelector(".skills__bar");
+
+        if (percentageText && bar) {
+            const numericValue = parseInt(percentageText.replace("%", ""), 10);
+            bar.style.width = numericValue + "%";
+        }
+    });
+});
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
@@ -50,6 +64,7 @@ const sr = ScrollReveal({
     delay: 200,
 //     reset: true
 });
+
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
