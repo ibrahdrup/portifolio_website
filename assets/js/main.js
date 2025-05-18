@@ -65,6 +65,31 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
+const workImages = [
+    "assets/img/work1.jpg",
+    "assets/img/work2.jpg",
+    "assets/img/work3.jpg",
+    "assets/img/work4.jpg",
+    "assets/img/work5.jpg",
+    "assets/img/work6.jpg",
+];
+const container = document.getElementById("workContainer");
+
+workImages.forEach((imgSrc) => {
+    const a = document.createElement("a");
+    a.href = "#";
+    a.className = "work__img";
+
+    const img = document.createElement("img");
+    img.src = imgSrc;
+    img.alt = "Work image";
+
+    a.appendChild(img);
+    container.appendChild(a);
+});
+
+
+
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
