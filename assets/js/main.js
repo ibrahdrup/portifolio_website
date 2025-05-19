@@ -455,6 +455,31 @@ function modal_work() {
             thumb.classList.toggle("active", i === currentIndex);
         });
     }
+    // Touch swipe support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    modalContent.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    modalContent.addEventListener("touchend", (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleGesture();
+    });
+
+    function handleGesture() {
+        if (touchEndX < touchStartX - 50) {
+            // Swiped left
+            currentIndex = (currentIndex + 1) % workMedia.length;
+            updateModalContent();
+        }
+        if (touchEndX > touchStartX + 50) {
+            // Swiped right
+            currentIndex = (currentIndex - 1 + workMedia.length) % workMedia.length;
+            updateModalContent();
+        }
+    }
 }
 
 
