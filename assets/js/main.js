@@ -348,12 +348,15 @@ function modal_work() {
             element = document.createElement("video");
             element.src = mediaSrc;
             element.muted = true;
-            element.autoplay = true;
             element.loop = true;
+            element.preload = "metadata";
+            element.playsInline = true;
         } else {
             element = document.createElement("img");
             element.src = mediaSrc;
             element.alt = "Work image " + (index + 1);
+            element.loading = "lazy";
+            element.decoding = "async";
         }
 
         element.className = "media-thumb";
