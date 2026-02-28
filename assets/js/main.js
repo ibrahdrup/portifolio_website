@@ -324,6 +324,9 @@ function modal_work() {
         "assets/img/WhatsApp Video 2026-02-27 at 18.00.16.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.41.54.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.42.06.mp4",
+        "assets/img/WhatsApp Video 2026-02-28 at 10.42.06c.mp4",
+
+
     ];
 
     let currentIndex = 0;
