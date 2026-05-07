@@ -278,7 +278,7 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.37.34.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.32.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.31.jpeg",
+
         "assets/img/work Image 2025-05-18 at 22.37.29.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27.jpeg",
