@@ -72,7 +72,7 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.37.52.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.51.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.48.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.46.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.46.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41 (1).jpeg",
@@ -84,7 +84,11 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.37.34.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.32.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.31.jpeg",
+        "assets/img/ WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
+        "assets/img/ WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
+        "assets/img/ WhatsApp Image 2026-05-07 at 11.30.47.jpeg",
+
+        // "assets/img/work Image 2025-05-18 at 22.37.31.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.29.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27.jpeg",
@@ -262,7 +266,7 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.37.52.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.51.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.48.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.46.jpeg",
+
         "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41 (1).jpeg",
@@ -284,6 +288,8 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.37.10.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.08.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.06.jpeg",
+        "assets/img/WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
+        "assets/img/WhatsApp Image 2026-05-07 at 11.30.47.jpeg",
 
         "assets/img/work Image 2025-05-18 at 22.37.02.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.59 (1).jpeg",
@@ -323,7 +329,7 @@ function modal_work() {
         "assets/img/WhatsApp Image 2026-02-27 at 17.58.03.jpeg",
         "assets/img/WhatsApp Video 2026-02-27 at 18.00.16.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.41.54.mp4",
-        "assets/img/WhatsApp Video 2026-02-28 at 10.42.06.mp4",
+        // "assets/img/WhatsApp Video 2026-02-28 at 10.42.06.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.42.06c.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.42.09.mp4",
 
