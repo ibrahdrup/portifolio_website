@@ -290,6 +290,7 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.37.06.jpeg",
         "assets/img/WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
         "assets/img/WhatsApp Image 2026-05-07 at 11.30.47.jpeg",
+        "assets/img/WhatsApp Image 2026-05-07 at 11.30.47b.jpeg",
 
         "assets/img/work Image 2025-05-18 at 22.37.02.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.59 (1).jpeg",
