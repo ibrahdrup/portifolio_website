@@ -482,6 +482,82 @@ img {
   transform: scale(1.1);
 }
 
+
+/* ===== WORK FILTERS ===== */
+.work__filters {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.work__filter-btn {
+    padding: .45rem 1.2rem;
+    border-radius: 99px;
+    border: 1.5px solid var(--second-color);
+    background: transparent;
+    color: var(--second-color);
+    font-size: var(--smaller-font-size);
+    font-family: var(--body-font);
+    font-weight: var(--font-semi);
+    cursor: pointer;
+    transition: .3s;
+}
+.work__filter-btn.active,
+.work__filter-btn:hover {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+    color: #fff;
+}
+.work__filter-count {
+    display: inline-block;
+    font-size: .7rem;
+    margin-left: 4px;
+    opacity: .75;
+}
+.work__card-badge {
+    position: absolute;
+    bottom: 6px;
+    left: 8px;
+    font-size: .65rem;
+    font-weight: var(--font-semi);
+    padding: 2px 8px;
+    border-radius: 99px;
+    pointer-events: none;
+}
+.work__card-badge--photo {
+    background: rgba(74, 108, 247, 0.85);
+    color: #fff;
+}
+.work__card-badge--video {
+    background: rgba(210, 50, 50, 0.85);
+    color: #fff;
+}
+.work__img {
+    position: relative; /* needed for badge positioning */
+}
+.work__img video.media-thumb {
+    pointer-events: none;
+}
+.work__img video {
+    background-color: #1a1a2e;
+}
+
+.work__img.video-card::after {
+    content: '▶';
+    position: absolute;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+.work__img.video-card {
+    display: flex;   /* add this explicitly */
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* Modal */
 .modal {
   display: none;

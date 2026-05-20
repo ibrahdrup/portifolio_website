@@ -225,6 +225,16 @@
             </section>
 
             <!--===== WORK =====-->
+<!--            <section class="work section" id="work">-->
+<!--                <h2 class="section-title">Work</h2>-->
+<!--                <p class="section-caption">-->
+<!--                    Bringing ideas to life through bold, thoughtful design.<br>-->
+<!--                    Every detail crafted with purpose and passion.<br>-->
+<!--                    Explore the work that speaks without words.-->
+<!--                </p>-->
+<!--                <div class="work__container bd-grid" id="workContainer"></div>-->
+<!--            </section>-->
+
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
                 <p class="section-caption">
@@ -232,6 +242,19 @@
                     Every detail crafted with purpose and passion.<br>
                     Explore the work that speaks without words.
                 </p>
+
+                <div class="work__filters bd-grid" style="max-width:1024px;margin:0 auto 1.5rem;">
+                    <button class="work__filter-btn active" data-filter="all">
+                        All <span class="work__filter-count" id="count-all"></span>
+                    </button>
+                    <button class="work__filter-btn" data-filter="image">
+                        Photos <span class="work__filter-count" id="count-image"></span>
+                    </button>
+                    <button class="work__filter-btn" data-filter="video">
+                        Videos <span class="work__filter-count" id="count-video"></span>
+                    </button>
+                </div>
+
                 <div class="work__container bd-grid" id="workContainer"></div>
             </section>
 

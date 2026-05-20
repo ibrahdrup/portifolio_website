@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/ 
+/*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -32,12 +32,12 @@ const scrollActive = () =>{
               sectionTop = current.offsetTop - 58,
               sectionId = current.getAttribute('id'),
               sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
-        
+
         if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
             sectionsClass.classList.add('active-link')
         }else{
             sectionsClass.classList.remove('active-link')
-        }                                                    
+        }
     })
 }
 window.addEventListener('scroll', scrollActive)
@@ -68,13 +68,13 @@ const sr = ScrollReveal({
 function modal_work2() {
     const workImages = [
         "assets/img/work Image 2025-05-18 at 22.38.03 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.38.03.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.38.03.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.52.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.51.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.48.jpeg",
         // "assets/img/work Image 2025-05-18 at 22.37.46.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.39.jpeg",
@@ -82,7 +82,7 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.37.37.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.35.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.34.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.32.jpeg",
         "assets/img/ WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
         "assets/img/ WhatsApp Image 2026-05-07 at 11.30.46.jpeg",
@@ -93,8 +93,8 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.37.27 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.21.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.19 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.19.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.19 (1).jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.19.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.10.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.08.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.06.jpeg",
@@ -106,7 +106,7 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.36.56.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.54.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.50.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.36.49.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.36.49.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.39 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.39.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.30.jpeg",
@@ -121,7 +121,7 @@ function modal_work2() {
         "assets/img/work Image 2025-05-18 at 22.36.12.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.11 (2).jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.11 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.36.11.jpeg"
+        // "assets/img/work Image 2025-05-18 at 22.36.11.jpeg"
     ];
 
 
@@ -262,13 +262,13 @@ function modal_work2() {
 function modal_work() {
     const workMedia = [
         "assets/img/work Image 2025-05-18 at 22.38.03 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.38.03.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.38.03.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.52.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.51.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.48.jpeg",
 
-        "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.44 (1).jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.44.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.41.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.39.jpeg",
@@ -276,15 +276,15 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.37.37.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.35.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.34.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.33.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.32.jpeg",
 
         "assets/img/work Image 2025-05-18 at 22.37.29.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.27.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.21.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.19 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.37.19.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.19 (1).jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.37.19.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.10.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.08.jpeg",
         "assets/img/work Image 2025-05-18 at 22.37.06.jpeg",
@@ -299,14 +299,14 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.36.56.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.54.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.50.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.36.49.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.36.49.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.39 (1).jpeg",
         // "assets/img/work Image 2025-05-18 at 22.36.39.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.30.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.29.jpeg",
 
         "assets/img/work Image 2025-05-18 at 22.36.27.jpeg",
-        "assets/img/work Image 2025-05-18 at 22.36.25.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.36.25.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.15 (2).jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.15 (1).jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.15.jpeg",
@@ -314,7 +314,7 @@ function modal_work() {
         "assets/img/work Image 2025-05-18 at 22.36.12.jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.11 (2).jpeg",
         "assets/img/work Image 2025-05-18 at 22.36.11 (1).jpeg",
-        "assets/img/work Image 2025-05-18 at 22.36.11.jpeg",
+        // "assets/img/work Image 2025-05-18 at 22.36.11.jpeg",
         "assets/img/work Video 2025-05-18 at 22.48.06.mp4",
         "assets/img/work Video 2025-05-18 at 22.47.59.mp4",
         "assets/img/work Video 2025-05-18 at 22.42.29.mp4",
@@ -333,6 +333,15 @@ function modal_work() {
         // "assets/img/WhatsApp Video 2026-02-28 at 10.42.06.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.42.06c.mp4",
         "assets/img/WhatsApp Video 2026-02-28 at 10.42.09.mp4",
+        "assets/img/FLYER 1.png",
+        "assets/img/FLYER 2.png",
+        "assets/img/POST 1.png",
+        "assets/img/POST 2.png",
+       "assets/img/POST 3.png",
+        "assets/img/ROLLUP BANNER 1.png",
+        "assets/img/ROLLUP BANNER 2.png",
+       "assets/img/ROLLUP BANNER 3.png",
+        "assets/img/VIDEO 1.mp4"
 
 
     ];
@@ -346,11 +355,12 @@ function modal_work() {
     const closeBtn = document.querySelector(".close");
     const thumbnailContainer = document.getElementById("modalThumbnails");
 
-    // Add thumbnails to grid
+// Add thumbnails to grid
     workMedia.forEach((mediaSrc, index) => {
         const a = document.createElement("a");
         a.href = "#";
         a.className = "work__img";
+        a.dataset.mediaIndex = index;
 
         const isVideo = mediaSrc.endsWith(".mp4");
 
@@ -362,6 +372,11 @@ function modal_work() {
             element.loop = true;
             element.preload = "metadata";
             element.playsInline = true;
+            a.classList.add("video-card");
+
+            element.addEventListener("loadedmetadata", () => {
+                element.currentTime = 0.1;
+            });
         } else {
             element = document.createElement("img");
             element.src = mediaSrc;
@@ -371,15 +386,55 @@ function modal_work() {
         }
 
         element.className = "media-thumb";
-        element.addEventListener("click", (e) => {
+
+        // Listen on the <a>, not the inner element — videos eat their own clicks
+        a.addEventListener("click", (e) => {
             e.preventDefault();
-            currentIndex = index;
+            currentIndex = parseInt(a.dataset.mediaIndex);
             openModal();
         });
 
         a.appendChild(element);
         container.appendChild(a);
     });
+
+// ===== FILTER LOGIC =====
+    const filterBtns = document.querySelectorAll('.work__filter-btn');
+    const allItems = container.querySelectorAll('.work__img');
+
+    let imgCount = 0, vidCount = 0;
+    allItems.forEach(item => {
+        const isVid = item.querySelector('video') !== null;
+        item.dataset.type = isVid ? 'video' : 'image';
+        isVid ? vidCount++ : imgCount++;
+
+        const badge = document.createElement('span');
+        badge.className = 'work__card-badge ' + (isVid ? 'work__card-badge--video' : 'work__card-badge--photo');
+        badge.textContent = isVid ? 'Video' : 'Photo';
+        item.appendChild(badge);
+    });
+
+    document.getElementById('count-all').textContent = imgCount + vidCount;
+    document.getElementById('count-image').textContent = imgCount;
+    document.getElementById('count-video').textContent = vidCount;
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const type = btn.dataset.filter;
+
+            container.querySelectorAll('.work__img').forEach(item => {
+                if (type === 'all' || item.dataset.type === type) {
+                    item.style.display = 'flex';   // ← use 'flex' explicitly, not ''
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+
 
     function openModal() {
         renderModalMedia();
@@ -397,24 +452,52 @@ function modal_work() {
         const mediaSrc = workMedia[currentIndex];
         let newMedia;
 
-        const onLoadOrReady = () => {
-            newMedia.className = "modal-media";
-            modalContent.insertBefore(newMedia, caption);
-        };
-
         if (mediaSrc.endsWith(".mp4")) {
             newMedia = document.createElement("video");
             newMedia.src = mediaSrc;
             newMedia.controls = true;
             newMedia.autoplay = true;
-            newMedia.oncanplaythrough = onLoadOrReady;
+            newMedia.playsInline = true;
+            newMedia.style.maxHeight = "70vh";
+            newMedia.style.maxWidth = "100%";
         } else {
             newMedia = document.createElement("img");
             newMedia.src = mediaSrc;
             newMedia.id = "fullImage";
-            newMedia.onload = onLoadOrReady;
+            newMedia.style.maxHeight = "70vh";
+            newMedia.style.maxWidth = "100%";
         }
+
+        newMedia.className = "modal-media";
+        modalContent.insertBefore(newMedia, caption);
     }
+
+    // function renderModalMedia() {
+    //     const oldMedia = modalContent.querySelector("img, video");
+    //     if (oldMedia) oldMedia.remove();
+    //
+    //     const mediaSrc = workMedia[currentIndex];
+    //     let newMedia;
+    //
+    //     const onLoadOrReady = () => {
+    //         newMedia.className = "modal-media";
+    //         modalContent.insertBefore(newMedia, caption);
+    //     };
+    //
+    //     if (mediaSrc.endsWith(".mp4")) {
+    //         newMedia = document.createElement("video");
+    //         newMedia.src = mediaSrc;
+    //         newMedia.controls = true;
+    //         newMedia.autoplay = true;
+    //         newMedia.oncanplaythrough = onLoadOrReady;
+    //     } else {
+    //         newMedia = document.createElement("img");
+    //         newMedia.src = mediaSrc;
+    //         newMedia.id = "fullImage";
+    //         newMedia.onload = onLoadOrReady;
+    //     }
+    // }
+
 
 
     function closeModal() {
@@ -510,7 +593,7 @@ modal_work()
 
 
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400});
+sr.reveal('.home__social-icon',{ interval: 200});
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
